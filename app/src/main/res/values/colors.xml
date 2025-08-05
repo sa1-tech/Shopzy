@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#64B5F6</color>
+
+    <!-- Accent Colors -->
+    <color name="light_pink">#FF4081</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_light_dark_grey">#757575</color>
+    <color name="text_light_grey">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#000000</color>
+
+    <!-- Background Colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#303030</color>
+    <color name="background_overlay_grey">#80FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="button_purple">#FF6200EE</color>
+    <color name="button_crem">#BDBDBD</color>
+    <color name="button_green">#4CAF50</color>
+    <color name="button_orange">#FF5722</color>
+
+    <!-- Error Colors -->
+    <color name="error_dark_red">#D32F2F</color>
+    <color name="error_light_red">#F44336</color>
+
+    <!-- Success and Info Colors -->
+    <color name="success_green">#388E3C</color>
+    <color name="info_sky_dark">#0288D1</color>
+    <color name="success_light_green">#81C784</color>
+    <color name="info_light_sky">#4FC3F7</color>
+
+    <!-- Warning Colors -->
+    <color name="warning_yellow">#FBC02D</color>
+    <color name="warning_dark_orange">#F57F17</color>
+    <color name="warning_light_yellow">#FFEB3B</color>
+
+    <!-- Link Colors -->
+    <color name="link_light_sky">#1E88E5</color>
+    <color name="link_hover_dark_sky">#1565C0</color>
+
+    <!-- Miscellaneous Colors -->
+    <color name="divider_cream">#BDBDBD</color>
+    <color name="border_white">#E0E0E0</color>
+    <color name="shadow_dark_black">#00000033</color>
+    <color name="highlight_yellow">#FFEB3B</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#7F000000</color>
+    <color name="overlay_transparent">#80000000</color>
+
+    <!-- Custom Primary Colors -->
+    <color name="colorPrimary_purple">#6200EE</color> <!-- Your primary color -->
+    <color name="colorPrimaryDark_blue">#3700B3</color> <!-- Darker shade of the primary color -->
+    <color name="colorAccent">#00796B</color>
+
+    <!-- Hint Color -->
+    <color name="colorHint_dark_cream">#A9A9A9</color> <!-- Light gray color for hint text -->
+
+    <!-- Gradient Colors -->
+    <color name="colorStart">#F80000</color> <!-- Start color for gradients -->
+    <color name="colorEnd">#001FFF</color>   <!-- End color for gradients -->
+
+</resources>

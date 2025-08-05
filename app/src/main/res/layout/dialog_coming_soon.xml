@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/dialog_background"
+    android:elevation="13dp"
+    android:clipToPadding="false"
+    android:layout_margin="20dp">
+
+    <!-- Coming Soon Image -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/future"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Coming Soon"
+        android:paddingBottom="12dp"
+        android:elevation="4dp"
+        android:scaleType="centerInside"/>
+
+    <!-- Feature Coming Soon Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feature Coming Soon!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:gravity="center"
+        android:textColor="#212121"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Description Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are working on this feature. Stay tuned!"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="12dp"
+        android:textColor="#666666"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- OK Button -->
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:backgroundTint="#00796B"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="12dp"
+        android:elevation="6dp"
+        />
+</LinearLayout>
